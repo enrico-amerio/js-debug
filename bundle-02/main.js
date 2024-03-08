@@ -57,7 +57,7 @@ addNumbers();
 // ESERCIZIO 4
 function checkAccess() {
     const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
-    const userEmail = prompt('Inserisci il tuo indirizzo email');
+    const userEmail = 'mymail@mail.com' //prompt('Inserisci il tuo indirizzo email');
 
     let grantAccess = false;
 
@@ -76,7 +76,7 @@ checkAccess();
 1 questa funzione controlla se la mail dell'utente è presente nell'array
 2 ho tolto le virgolette da true e false che venivano lette come stringhe quindi non funzionavano
 */
-/*
+
 
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
 function checkAccessImproved() {
@@ -84,7 +84,7 @@ function checkAccessImproved() {
 
     const userEmail = prompt('Inserisci il tuo indirizzo email');
 
-    let grantAccess = 'false';
+    let grantAccess = false;
 
     for (let i = 0; i < addresses.length; i++) {
         const email = addresses[i];
@@ -92,21 +92,26 @@ function checkAccessImproved() {
         if (userEmail.length > 5) {
 
             if (email === userEmail) {
-                grantAccess = 'true';
+                grantAccess = true;
 
             }
 
         }
 
-        if (grantAccess) {
-            console.log('Accesso consentito!');
-        } else {
-            console.log('Accesso negato!');
-        }
     }
+    if (grantAccess) {
+        console.log('Accesso consentito!');
+    } else {
+        console.log('Accesso negato!');
+    }
+}
     checkAccessImproved();
 
 
+/*
+1 questa funzione controlla se la mail dell'utente è presente nell'array
+2 ho tolto le virgolette da true e false che venivano lette come stringhe quindi non funzionavano
+3 ho spostato l'output fuori dal ciclo cosi da solo un output
 */
 
 
