@@ -11,9 +11,9 @@
 
 
 // ESERCIZIO 1
+const myAge = 32;
+let message = '';
 function checkAge() {
-    const myAge = 32;
-    const message = '';
 
     if (myAge < 18) {
         message = `Sei troppo giovane! Hai ${myAge} anni!`;
@@ -22,7 +22,13 @@ function checkAge() {
     }
 }
 checkAge();
-
+console.log(message)
+/*
+ 1. Questa funzione controlla l'età e restituisce un messaggio diverso se maggiorenne o minorenne
+ 2. La variabile message deve essere una let  
+ 3. dichiaro le variabili fuori dalla funzione
+ */
+/*
 // ESERCIZIO 2
 function printColorsNumber() {
     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
@@ -90,7 +96,7 @@ function checkAccessImproved() {
     checkAccessImproved();
 
 
-
+*/
 
 
 
