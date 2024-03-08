@@ -26,20 +26,19 @@ console.log(message)
 /*
  1. Questa funzione controlla l'età e restituisce un messaggio diverso se maggiorenne o minorenne
  2. La variabile message deve essere una let  
- 3. dichiaro le variabili fuori dalla funzione
+ 3. dichiaro le variabili fuori dalla funzione, aggiunto console log
  */
 
 // ESERCIZIO 2
 function printColorsNumber() {
     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
     console.log(colors.length);
-    let numeroColori = colors.length;
-    console.log(`Nella mia palette ci sono ${numeroColori} colori!`);
+    console.log(`Nella mia palette ci sono ${colors.length} colori!`);
 }
 printColorsNumber();
 /*
 1. questa funzione controlla quanti elementi ci sono nell'array e restituisce un messaggio 
-3. ho aggiunto una variabile chiamata numeroColori a cui ho assegnato il valore colors.lenght. Ho quindi richiamato la variabile nell'output
+3. lenght scritto male
 */
 
 // ESERCIZIO 3
@@ -110,8 +109,8 @@ function checkAccessImproved() {
 
 /*
 1 questa funzione controlla se la mail dell'utente è presente nell'array
-2 ho tolto le virgolette da true e false che venivano lette come stringhe quindi non funzionavano
-3 ho spostato l'output fuori dal ciclo cosi da solo un output
+2 ho tolto le virgolette da true e false che venivano lette come stringhe quindi non funzionavano, mancava una graffa
+3
 */
 
 
