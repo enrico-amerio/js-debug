@@ -86,5 +86,4 @@ console.log(otherCars);
 /*
 1 divide le auto in array in base al carburante
 2 mancava una virgola a riga 59 // era sbagliata riga 67 l'arrow function // corretta la seconda arrow function // terza arrow function messo && al posto di ||  // aggiunto toLowerCase
-
 */
