@@ -37,10 +37,15 @@ console.log(addIfEven(num));
 
 // ESERCIZIO 3
 function loopToFive() {
-    for (let i = 0, i < 5, i++) {
+    for (let i = 0; i < 5; i++){
         console.log(i);
     }
 }
+/*
+1. Questo loop genera un console log finchè il valore di i è minore di 5
+2. nel ciclo for vanno utilizzati i ; e non , 
+3.no
+*/
 
 
 /*// ESERCIZIO 4 (suggerimento: ci sono 7 errori)
