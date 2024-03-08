@@ -15,8 +15,12 @@ for (let i = 0; i > 5; i++) {
     console.log(i);
 }
 
+/* 1 questo codice fa un log del valore di i per ogni ciclo 
+2 no
+3 si, se i è = a 0 la condizione i > 5 non si verificherà mai quindi il ciclo non partirà mai */
 
-// ESERCIZIO 2
+
+/* // ESERCIZIO 2
 function addIfEven(num) {
     if (num % 2 = 0) {
         return num + 5;
@@ -44,4 +48,4 @@ function displayEvenNumbers() {
         return evenNumbers;
     }
 }
-displayEvenNumbers(); // dovrebbe restituire [2,4,6,8]
+displayEvenNumbers(); // dovrebbe restituire [2,4,6,8] */
