@@ -41,17 +41,19 @@ printColorsNumber();
 1. questa funzione controlla quanti elementi ci sono nell'array e restituisce un messaggio 
 3. ho aggiunto una variabile chiamata numeroColori a cui ho assegnato il valore colors.lenght. Ho quindi richiamato la variabile nell'output
 */
-/*
+
 // ESERCIZIO 3
 function addNumbers() {
-    const userNumber = prompt('Inserisci un numero');
+    const userNumber = parseInt(prompt('Inserisci un numero'));
     const total = userNumber + 12;
 
     console.log(`Il risultato finale è ${total}`);
 }
 addNumbers();
-
-
+/* 1 Questa funzione aggiunge 12 ad un numero scritto dall'utente
+2 manca il parseInt al prompt quindi non viene eseguita un'operazione matematica ma una concatenazione di stringhe
+*/
+/*
 // ESERCIZIO 4
 function checkAccess() {
     const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
