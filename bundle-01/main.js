@@ -17,16 +17,22 @@ for (let i = 0; i > 5; i++) {
 
 /* 1 questo codice fa un log del valore di i per ogni ciclo 
 2 no
-3 si, se i è = a 0 la condizione i > 5 non si verificherà mai quindi il ciclo non partirà mai */
+3 si, se i è = a 0 la condizione i > 5 non si verificherà mai quindi il ciclo non partirà mai*/
 
 
-/* // ESERCIZIO 2
+// ESERCIZIO 2
+num = 3;
+addIfEven(num)
 function addIfEven(num) {
-    if (num % 2 = 0) {
+    if (num % 2 == 0) {
         return num + 5;
     }
     return num;
 }
+console.log(addIfEven(num));
+/* 1 questo codice da un return se il numero è pari 
+2 si, 2 = 0 è sbagliato perchè assegna il valore invece di confrontare, dovrebbe essere 2 == 0 ( o 2 === 0)
+3 no */
 
 
 // ESERCIZIO 3
@@ -37,7 +43,7 @@ function loopToFive() {
 }
 
 
-// ESERCIZIO 4 (suggerimento: ci sono 7 errori)
+/*// ESERCIZIO 4 (suggerimento: ci sono 7 errori)
 function displayEvenNumbers() {
     let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
     let evenNumbers = [];
