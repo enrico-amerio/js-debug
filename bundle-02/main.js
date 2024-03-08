@@ -28,15 +28,20 @@ console.log(message)
  2. La variabile message deve essere una let  
  3. dichiaro le variabili fuori dalla funzione
  */
-/*
+
 // ESERCIZIO 2
 function printColorsNumber() {
     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
-    console.log(`Nella mia palette ci sono ${colors.lenght} colori!`);
+    console.log(colors.length);
+    let numeroColori = colors.length;
+    console.log(`Nella mia palette ci sono ${numeroColori} colori!`);
 }
 printColorsNumber();
-
-
+/*
+1. questa funzione controlla quanti elementi ci sono nell'array e restituisce un messaggio 
+3. ho aggiunto una variabile chiamata numeroColori a cui ho assegnato il valore colors.lenght. Ho quindi richiamato la variabile nell'output
+*/
+/*
 // ESERCIZIO 3
 function addNumbers() {
     const userNumber = prompt('Inserisci un numero');
