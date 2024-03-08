@@ -44,7 +44,7 @@ printColorsNumber();
 
 // ESERCIZIO 3
 function addNumbers() {
-    const userNumber = parseInt(prompt('Inserisci un numero'));
+    const userNumber = 2 //parseInt(prompt('Inserisci un numero'));
     const total = userNumber + 12;
 
     console.log(`Il risultato finale è ${total}`);
@@ -53,16 +53,16 @@ addNumbers();
 /* 1 Questa funzione aggiunge 12 ad un numero scritto dall'utente
 2 manca il parseInt al prompt quindi non viene eseguita un'operazione matematica ma una concatenazione di stringhe
 */
-/*
+
 // ESERCIZIO 4
 function checkAccess() {
     const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
     const userEmail = prompt('Inserisci il tuo indirizzo email');
 
-    let grantAccess = 'false';
+    let grantAccess = false;
 
     if (addresses.includes(userEmail)) {
-        grantAccess = 'true';
+        grantAccess = true;
     }
 
     if (grantAccess === true) {
@@ -72,7 +72,11 @@ function checkAccess() {
     }
 }
 checkAccess();
-
+/*
+1 questa funzione controlla se la mail dell'utente è presente nell'array
+2 ho tolto le virgolette da true e false che venivano lette come stringhe quindi non funzionavano
+*/
+/*
 
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
 function checkAccessImproved() {
