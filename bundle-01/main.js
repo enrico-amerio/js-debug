@@ -48,15 +48,21 @@ function loopToFive() {
 */
 
 
-/*// ESERCIZIO 4 (suggerimento: ci sono 7 errori)
+// ESERCIZIO 4 (suggerimento: ci sono 7 errori)
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+let evenNumbers = [];
 function displayEvenNumbers() {
-    let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
-    let evenNumbers = [];
-    for (let i = 0; i < numbers.length - 1; i++;) {
-        if (numbers % 2 = 0); {
-            evenNumbers.push(i);
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 == 0){
+            evenNumbers.push(numbers[i]);
+            console.log(numbers[i]);
         }
-        return evenNumbers;
     }
+    return evenNumbers;
 }
-displayEvenNumbers(); // dovrebbe restituire [2,4,6,8] */
+displayEvenNumbers(); // dovrebbe restituire [2,4,6,8] 
+console.log(evenNumbers);
+/*
+1. questa funzione deve restituire un nuovo array contenente solo i numeri pari dell'array numbers
+2. c'è un ; dopo i++ // nella condizione dell'if c'è assegnazione e non confronto // tolgo il -1 nella condizione del ciclo se no non pusha l'8 // Il return interrompe il ciclo dopo il primo giro, va messo fuori dal ciclo alla fine della funzione // Tolgo il punto e virgola dopo alla tonda dell'if // dichiaro gli array fuori dalla funzione
+*/
